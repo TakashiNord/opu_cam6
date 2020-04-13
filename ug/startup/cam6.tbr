@@ -1,0 +1,18 @@
+! Menuitem for users
+!  12.31.01
+! Freeware - предполагает исходные тексты, но не всегда
+! Shareware - предполагает плату денег
+! Corporative version
+!      - значит все что вы создаете это ваше и вашего работодателя,
+!        если в трудовом не оговорено иначе
+
+TITLE Cam_OPU_(x32)
+
+VERSION 160
+
+BUTTON  Cam6
+LABEL   Изменение Z-Offset операции
+ACTION  $UGII_VENDOR_DIR\application\opu_cam6_dlg.dll
+BITMAP  $UGII_VENDOR_DIR\application\opu_cam6.bmp
+
+!================================================================
